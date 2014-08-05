@@ -1,0 +1,74 @@
+body{
+  margin:0px;
+  padding:0px;
+  font-family: Vardana, 微軟正黑體;
+}
+
+h1{
+  font-size: 3em;
+  margin: 0px;
+}
+
+h1 a , h1 a:hover{
+  color: rgba(87, 18, 18, 0.5);
+  text-decoration: none;
+}
+
+h2{
+  color: blue;
+}
+
+/* 搭配 id 屬性的挑選器 */
+#container{
+  width: 960px;
+  background-image: url(../images/templatemo_wrapper_m.png);
+  padding: 12px;
+  min-height: 600px;
+}
+
+#container_header{
+  height: 50px;
+  background-image: url(../images/templatemo_wrapper_m.png);
+  background-position: center center;
+  border: 1px solid white;
+  padding: 25px 10px;
+}
+
+#container_nav{
+  width: 984px;
+  margin: 0px auto;
+  border-radius: 5px;
+}
+
+#container_slide{
+
+}
+
+
+.li_content li{
+  line-height:1.8;
+}
+
+ul#head_menu{
+  margin-top: 15px;
+}
+
+ul#head_menu li{
+  /* display: inline; */
+  float: left;
+  list-style: none;
+}
+
+ul#head_menu li a{
+  color: #000000;
+  padding: 6px 20px;
+}
+
+ul#head_menu li a:hover ,  .active{
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #f5c9c9;
+  border-radius: 5px;
+}
+
+
