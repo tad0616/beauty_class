@@ -51,7 +51,9 @@
     <style type="text/css">
       body{
         font-family: <{$font_family}>;
-        background-size: cover;
+        <{if $background_cover}>
+          background-size: cover;
+        <{/if}>
       }
 
       #container{
@@ -107,13 +109,15 @@
 
 
       <!--滑動圖片-->
+      <{if $slide_width!=0}>
       <div id="container_slide">
         <{includeq file="$xoops_rootpath/themes/$theme_name/xotpl/templatemo_slider.html"}>
       </div>
+      <{/if}>
 
       <!--跑馬燈-->
       <{if $marquee}>
-        <marquee style="background-color:black;color:yellow;padding:6px 0px;">
+        <marquee style="background-color:<{if $marquee_bg_color}><{$marquee_bg_color}><{else}>#ff7da2<{/if}>;color:<{if $marquee_text_color}><{$marquee_text_color}><{else}>#fff7fd<{/if}>;padding:6px 0px;">
           <{$smarty.const.TF_MARQUEE_PREFIX}><{$marquee}>
         </marquee>
       <{/if}>

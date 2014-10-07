@@ -75,7 +75,7 @@ $config_tabs[3]=1;
 //佈景圖片寬度[slideshow_responsive.html]，值：若bootstrap模式，最大值為 12，若 html 模式，則輸入預設佈景圖片寬度，如： 980
 $config_enable['slide_width']=array('enable'=>1, 'min'=>'' , 'max'=>'' , 'require'=>0 , 'default'=>'960');
 //佈景圖片高度[slideshow_responsive.html]，值：數值，單位一律為 px
-$config_enable['slide_height']=array('enable'=>1, 'min'=>'' , 'max'=>'' , 'require'=>0 , 'default'=>'0');
+$config_enable['slide_height']=array('enable'=>0, 'min'=>'' , 'max'=>'' , 'require'=>0 , 'default'=>'0');
 //是否可上傳滑動圖片[slideshow_responsive.html]
 $config_enable['use_slide']=array('enable'=>1, 'min'=>'' , 'max'=>'' , 'require'=>0 , 'default'=>'1');
 

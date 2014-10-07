@@ -38,8 +38,8 @@ define("TF_FONT_FAMILY_DEFAULT","\"Helvetica Neue\",Helvetica,Arial,sans-serif")
 define("TF_FONT_FAMILY_DESC", "CSS font-family setup.ex:".TF_FONT_FAMILY_DEFAULT);
 define("TF_FOOTER_BGCOLOR", "Footer background color");
 define("TF_FOOTER_BGCOLOR_DESC", "Set footer background color.");
-define("TF_FOOTER_IMG", "Footer backgorund image");
-define("TF_FOOTER_IMG_DESC", "Please upload a background image.");
+define("TF_BG_COVER", "Use 'background-size: cover;'?");
+define("TF_BG_COVER_DESC", "");
 define("TF_FOOTER_STYLE", "Custom styles");
 define("TF_FOOTER_STYLE_DESC", "You can design footer style by CSS.");
 define("TF_TOPMENU","Top Menu");
@@ -52,4 +52,8 @@ define("TF_MARQUEE_PREFIX", "<span style='color:red;'></span>");
 define("TF_MARQUEE", "Marquee");
 define("TF_MARQUEE_DESC", "Please input marquee content.");
 define("TF_MARQUEE_DEFAULT", "You could input marquee content from theme admin.");
+define("TF_MARQUEE_BGCOLOR", "Marquee background color");
+define("TF_MARQUEE_BGCOLOR_DESC", "");
+define("TF_MARQUEE_TEXT_COLOR", "Marquee text color");
+define("TF_MARQUEE_TEXT_COLOR_DESC", "");
 ?>

@@ -15,6 +15,17 @@ $theme_config[$i]['desc']=TF_FONT_FAMILY_DESC;
 $theme_config[$i]['type']="text";
 $theme_config[$i]['default']=constant('TF_FONT_FAMILY_DEFAULT');
 
+
+//底圖放大
+$i++;
+$theme_config[$i]['name']="background_cover";
+$theme_config[$i]['text']=TF_BG_COVER;
+$theme_config[$i]['desc']=TF_BG_COVER_DESC;
+$theme_config[$i]['type']="yesno";
+$theme_config[$i]['default']=0;
+
+
+
 //頁尾底色
 $i++;
 $theme_config[$i]['name']="footer_bgcolor";
@@ -22,15 +33,6 @@ $theme_config[$i]['text']=TF_FOOTER_BGCOLOR;
 $theme_config[$i]['desc']=TF_FOOTER_BGCOLOR_DESC;
 $theme_config[$i]['type']="color";
 $theme_config[$i]['default']="#EAEAEA";
-
-
-//頁尾底圖
-// $i++;
-// $theme_config[$i]['name']="footer_img";
-// $theme_config[$i]['text']=TF_FOOTER_IMG;
-// $theme_config[$i]['desc']=TF_FOOTER_IMG_DESC;
-// $theme_config[$i]['type']="file";
-// $theme_config[$i]['default']=XOOPS_URL."/themes/school2014/images/foot.jpg";
 
 
 
@@ -60,4 +62,20 @@ $theme_config[$i]['text']=TF_MARQUEE;
 $theme_config[$i]['desc']=TF_MARQUEE_DESC;
 $theme_config[$i]['type']="text";
 $theme_config[$i]['default']=constant('TF_MARQUEE_DEFAULT');
+
+//跑馬燈底色
+$i++;
+$theme_config[$i]['name']="marquee_bg_color";
+$theme_config[$i]['text']=TF_MARQUEE_BGCOLOR;
+$theme_config[$i]['desc']=TF_MARQUEE_BGCOLOR_DESC;
+$theme_config[$i]['type']="color";
+$theme_config[$i]['default']='#000000';
+
+//跑馬燈文字顏色
+$i++;
+$theme_config[$i]['name']="marquee_text_color";
+$theme_config[$i]['text']=TF_MARQUEE_TEXT_COLOR;
+$theme_config[$i]['desc']=TF_MARQUEE_TEXT_COLOR_DESC;
+$theme_config[$i]['type']="color";
+$theme_config[$i]['default']='yellow';
 ?>
