@@ -12,7 +12,7 @@ $theme_kind_arr = 'html';
 $menu_var_kind = 'my_menu';
 
 //額外顏色設定 如： bootstrap3/themes/light/Cerulean
-$theme_color = '';
+$theme_color = 'bootstrap';
 
 /*
 tabs-1 版面基礎設定
