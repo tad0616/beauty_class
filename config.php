@@ -12,7 +12,7 @@ $theme_kind_arr = 'html';
 $menu_var_kind = 'my_menu';
 
 //額外顏色設定 如： bootstrap3/themes/light/Cerulean
-$theme_color = 'bootstrap';
+$theme_color = 'bootstrap3';
 
 /*
 tabs-1 版面基礎設定
@@ -24,7 +24,7 @@ $config_tabs[1] = 1;
 $config_enable['theme_type'] = array('enable' => '1', 'min' => '', 'max' => '', 'require' => '0', 'default' => 'theme_type_1');
 
 //版面寬度[自]，值：若bootstrap模式，最大值為 12，若 html 模式，則輸入預設版面寬度，如： 980
-$config_enable['theme_width'] = array('enable' => '0', 'min' => '1', 'max' => '960', 'require' => '1', 'default' => '960');
+$config_enable['theme_width'] = array('enable' => '0', 'min' => '1', 'max' => '984', 'require' => '1', 'default' => '984');
 
 //內容區顏色[theme_type_x.html]
 $config_enable['base_color'] = array('enable' => '1', 'min' => '', 'max' => '', 'require' => '0', 'default' => 'transparent');
@@ -84,7 +84,7 @@ $config_enable['bg_color'] = array('enable' => '1', 'min' => '', 'max' => '', 'r
 $config_enable['bg_repeat'] = array('enable' => '1', 'min' => '', 'max' => '', 'require' => '0', 'default' => 'no-repeat');
 
 //背景模式[theme_css.html]，值： scroll （捲動）,fixed （固定）
-$config_enable['bg_attachment'] = array('enable' => '1', 'min' => '', 'max' => '', 'require' => '0', 'default' => 'scroll');
+$config_enable['bg_attachment'] = array('enable' => '1', 'min' => '', 'max' => '', 'require' => '0', 'default' => 'fixed');
 
 //背景位置[theme_css.html]，值： left top （預設，左上）, right top （右上）, left bottom （左下）, right bottom （右下）, center center （中中）, center top （中上）, center bottom （中下）
 $config_enable['bg_position'] = array('enable' => '1', 'min' => '', 'max' => '', 'require' => '0', 'default' => 'center top');

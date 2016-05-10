@@ -36,7 +36,7 @@ $theme_config[$i]['name']    = "footer_style";
 $theme_config[$i]['text']    = TF_FOOTER_STYLE;
 $theme_config[$i]['desc']    = TF_FOOTER_STYLE_DESC;
 $theme_config[$i]['type']    = "textarea";
-$theme_config[$i]['default'] = "height: 60px; line-height: 60px; text-align: center;";
+$theme_config[$i]['default'] = "min-height: 60px; line-height: 24px; text-align: center;";
 
 //頂頭選單陣列
 $i++;

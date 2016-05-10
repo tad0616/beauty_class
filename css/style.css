@@ -5,7 +5,7 @@ body{
 }
 
 h1{
-  font-size: 3em;
+  font-size: 2.5em;
   margin: 0px;
 }
 
@@ -19,15 +19,15 @@ h2{
 }
 
 /* 搭配 id 屬性的挑選器 */
-#container{
-  width: 960px;
+#container_body{
+  width: 984px;
   background-image: url(../images/templatemo_wrapper_m.png);
   padding: 12px;
   min-height: 600px;
 }
 
 #container_header{
-  height: 50px;
+  /*height: 90px;*/
   background-image: url(../images/templatemo_wrapper_m.png);
   background-position: center center;
   border: 1px solid white;
