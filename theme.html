@@ -33,6 +33,8 @@
       }
 
       #container_footer{
+        padding: 20px auto;
+        display: block;
         background-color: <{$footer_bgcolor}>;
         <{$footer_style}>
       }
@@ -88,7 +90,6 @@
 
       <!--主內容區-->
       <{includeq file="$xoops_rootpath/modules/tadtools/themes3_tpl/$theme_type.html"}>
-
     </div>
 
     <div id="container_footer">
@@ -104,7 +105,7 @@
 
     <!-- 是否顯示樣板變數資訊 -->
     <{if $show_var==1}>
-    <{includeq file="$xoops_rootpath/modules/tadtools/themes_common/show_var.html"}>
+      <{includeq file="$xoops_rootpath/modules/tadtools/themes_common/show_var.html"}>
     <{/if}>
 
 
