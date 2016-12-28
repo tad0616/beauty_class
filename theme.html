@@ -54,7 +54,7 @@
       <div id="container_header">
         <div class="row">
 
-          <div class="col-sm-5 col-md-5">
+          <div class="col-sm-5 col-sm-5">
             <{if $logo_img}>
               <a href="<{$xoops_url}>"><img src="<{$logo_img}>" alt="<{$xoops_sitename}>"></a>
             <{else}>
@@ -62,7 +62,7 @@
             <{/if}>
           </div>
 
-          <div class="col-sm-7 col-md-7">
+          <div class="col-sm-7 col-sm-7">
             <ul id="head_menu">
               <{foreach from=$topmenu item=tm}>
                 <li><a href="<{$tm.url}>" target="<{$tm.target}>"><{$tm.name}></a></li>
@@ -94,7 +94,7 @@
 
     <div id="container_footer">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-sm-12">
         <{if $xoops_isadmin}>
           <a href="<{$xoops_url}>/modules/system/admin.php?fct=preferences&op=show&confcat_id=3" class="block_config"></a>
         <{/if}>
