@@ -39,7 +39,6 @@
         <{$footer_style}>
       }
     </style>
-
   </head>
   <body>
 
@@ -58,7 +57,7 @@
             <{if $logo_img}>
               <a href="<{$xoops_url}>"><img src="<{$logo_img}>" alt="<{$xoops_sitename}>"></a>
             <{else}>
-              <h1><a href="<{$xoops_url}>"><{$xoops_sitename}></a></h1>
+              <div style="font-size: 2em; font-weight: bold;"><a href="<{$xoops_url}>"><{$xoops_sitename}></a></div>
             <{/if}>
           </div>
 
